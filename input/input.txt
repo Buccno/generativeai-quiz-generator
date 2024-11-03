@@ -1,0 +1,40 @@
+A certain degree of independence makes the tester more effective at finding defects due to differences
+between the author’s and the tester’s cognitive biases (cf. Salman 1995). Independence is not, however,
+a replacement for familiarity, e.g., developers can efficiently find many defects in their own code.
+Work products can be tested by their author (no independence), by the author's peers from the same
+team (some independence), by testers from outside the author's team but within the organization (high
+independence), or by testers from outside the organization (very high independence). For most projects, it
+is usually best to carry out testing with multiple levels of independence (e.g., developers performing
+component and component integration testing, test team performing system and system integration
+testing, and business representatives performing acceptance testing).
+The main benefit of independence of testing is that independent testers are likely to recognize different
+kinds of failures and defects compared to developers because of their different backgrounds, technical
+perspectives, and biases. Moreover, an independent tester can verify, challenge, or disprove
+assumptions made by stakeholders during specification and implementation of the system.
+However, there are also some drawbacks. Independent testers may be isolated from the development
+team, which may lead to a lack of collaboration, communication problems, or an adversarial relationship
+with the development team. Developers may lose a sense of responsibility for quality. Independent
+testers may be seen as a bottleneck or be blamed for delays in release.
+
+Software systems are an integral part of our daily life. Most people have had experience with software
+that did not work as expected. Software that does not work correctly can lead to many problems,
+including loss of money, time or business reputation, and, in extreme cases, even injury or death.
+Software testing assesses software quality and helps reducing the risk of software failure in operation.
+Software testing is a set of activities to discover defects and evaluate the quality of software artifacts.
+These artifacts, when being tested, are known as test objects. A common misconception about testing is
+that it only consists of executing tests (i.e., running the software and checking the test results). However,
+software testing also includes other activities and must be aligned with the software development lifecycle
+(see chapter 2).
+Another common misconception about testing is that testing focuses entirely on verifying the test object.
+Whilst testing involves verification, i.e., checking whether the system meets specified requirements, it also
+involves validation, which means checking whether the system meets users’ and other stakeholders’
+needs in its operational environment.
+Testing may be dynamic or static. Dynamic testing involves the execution of software, while static testing
+does not. Static testing includes reviews (see chapter 3) and static analysis. Dynamic testing uses
+different types of test techniques and test approaches to derive test cases (see chapter 4).
+Testing is not only a technical activity. It also needs to be properly planned, managed, estimated,
+monitored and controlled (see chapter 5).
+Testers use tools (see chapter 6), but it is important to remember that testing is largely an intellectual
+activity, requiring the testers to have specialized knowledge, use analytical skills and apply critical
+thinking and systems thinking (Myers 2011, Roman 2018).
+The ISO/IEC/IEEE 29119-1 standard provides further information about software testing concepts.
