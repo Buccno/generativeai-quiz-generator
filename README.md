@@ -7,6 +7,11 @@ This project aims to help retain key concepts from texts that are difficult to p
 To use this tool:
 1. Place the text from which you want to generate questions in `input.txt` (located in the `input` folder).
 2. Set up the requirements and add your Gemini AI API key in the specified line in the Python script.
+
+```python
+    os.environ["API_KEY"] = 'YOUR_API_KEY'
+```
+
 3. Run the `quiz-generator.bat` file.
 
 The result will be a 10-question quiz generated from your input text.
